@@ -1,0 +1,8 @@
+defaults:
+  - setting: default
+hydra:
+  run:
+    dir: ./real/logs/sample_size=${setting.sample_size}
+  sweep:
+    dir: ./real/logs/sample_size=${setting.sample_size}
+    subdir: ./

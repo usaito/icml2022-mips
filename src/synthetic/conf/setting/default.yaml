@@ -1,0 +1,81 @@
+# @package _group_
+experiment: default
+# experimental settings
+n_seeds: 100
+dim_context: 10
+n_val_data: 10000
+n_test_data: 200000
+n_actions: 1000
+n_cat_per_dim: 10
+latent_param_mat_dim: 5
+n_cat_dim: 3
+n_unobserved_cat_dim: 0
+beta: -1
+n_def_actions: 0.0
+reward_std: 2.5
+eps: 0.05
+is_optimal: True
+embed_selection: False
+random_state: 12345
+# varying configs
+n_val_data_list:
+  - 800
+  - 1600
+  - 3200
+  - 6400
+  - 12800
+  - 25600
+n_actions_list:
+  - 10
+  - 20
+  - 50
+  - 100
+  - 200
+  - 500
+  - 1000
+  - 2000
+  - 5000
+n_unobserved_cat_dim_list:
+  - 0
+  - 2
+  - 4
+  - 6
+  - 8
+  - 10
+  - 12
+  - 14
+  - 16
+  - 18
+eps_list:
+  - 0
+  - 0.2
+  - 0.4
+  - 0.6
+  - 0.8
+  - 1.0
+beta_list:
+  - -3
+  - -2
+  - -1
+  - -0.5
+  - 0
+  - 0.5
+  - 1
+  - 2
+  - 3
+noise_list:
+  - 0.5
+  - 1.0
+  - 1.5
+  - 2.0
+  - 2.5
+  - 3.0
+  - 3.5
+  - 4.0
+n_def_actions_list:
+  - 0.0
+  - 0.1
+  - 0.3
+  - 0.5
+  - 0.7
+  - 0.9

@@ -1,0 +1,7 @@
+# @package _group_
+experiment: default
+# experimental settings
+n_seeds: 150
+sample_size: 10000
+logging_policy: random
+random_state: 12345

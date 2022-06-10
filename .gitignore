@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# others
+.DS_Store
+logs
+open_bandit_dataset
+*.ipynb

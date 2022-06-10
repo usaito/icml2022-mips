@@ -1,0 +1,8 @@
+defaults:
+  - setting: default
+hydra:
+  run:
+    dir: ./synthetic/logs/n_val=${setting.n_val_data},n_actions=${setting.n_actions}/n_emb=${setting.n_cat_per_dim},n_cat_dim=${setting.n_cat_dim},noise=${setting.reward_std},n_def=${setting.n_def_actions}/beta=${setting.beta},eps=${setting.eps}/slope=${setting.embed_selection}
+  sweep:
+    dir: ./synthetic/logs/n_val=${setting.n_val_data},n_actions=${setting.n_actions}/n_emb=${setting.n_cat_per_dim},n_cat_dim=${setting.n_cat_dim},noise=${setting.reward_std},n_def=${setting.n_def_actions}/beta=${setting.beta},eps=${setting.eps}/slope=${setting.embed_selection}
+    subdir: ./
