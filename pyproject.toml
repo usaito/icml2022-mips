@@ -6,7 +6,7 @@ authors = ["usaito <ys552@cornell.edu>"]
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.10"
-obp = "^0.5.4"
+obp = "0.5.5"
 scikit-learn = "1.0.2"
 pandas = "1.3.5"
 scipy = "1.7.3"
