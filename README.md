@@ -10,7 +10,16 @@ Off-policy evaluation (OPE) in contextual bandits has seen rapid adoption in rea
 
 ## Citation
 
-TBA
+```
+@inproceedings{saito2022off,
+  title={Off-Policy Evaluation for Large Action Spaces via Embeddings},
+  author={Saito, Yuta and Joachims, Thorsten},
+  booktitle={Proceedings of the 39th International Conference on Machine Learning},
+  pages={19089--19122},
+  year={2022},
+  organization={PMLR}
+}
+```
 
 ## Requirements and Setup
 
